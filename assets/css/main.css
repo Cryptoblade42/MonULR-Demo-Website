@@ -2947,7 +2947,7 @@
 
 		#header h1 {
 			color: inherit;
-			font-weight: 800;
+			font-weight: 600;
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
@@ -3067,7 +3067,7 @@
 			-webkit-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background: none;
+			background: #021d49;
 			color: rgba(255, 255, 255, 0.75);
 			position: absolute;
 		}
