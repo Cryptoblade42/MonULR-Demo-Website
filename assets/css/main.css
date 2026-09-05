@@ -2922,8 +2922,8 @@ input[type="reset"].alt,
 input[type="button"].alt,
 .button.alt {
   background-color: transparent;
-  box-shadow: inset 0 0 0 2px #e5e5e5;
-  color: #777;
+  box-shadow: inset 0 0 0 2px #021d49;
+  color: #021d49;
 }
 
 input[type="submit"].alt:hover,
