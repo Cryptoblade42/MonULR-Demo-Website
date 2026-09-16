@@ -431,7 +431,7 @@ code {
 
 .row > .col-4 {
   width: 33.33333%;
-   flex: 0 0 33.33333%;
+  flex: 0 0 33.33333%;
 }
 
 .row > .off-4 {
@@ -2423,7 +2423,6 @@ input[type="radio"] + label:before {
 
 .box.special {
   text-align: center;
-
 }
 
 .box .image.featured {
@@ -3045,6 +3044,7 @@ body.landing #page-wrapper {
   top: 0;
   width: 100%;
   z-index: 10000;
+  display: flex;
 }
 
 #header h1 {
@@ -3059,6 +3059,12 @@ body.landing #page-wrapper {
   top: 0;
 }
 
+#header > img {
+  height: 100%;
+  max-height: 100%;
+  width: auto;
+  display: block;
+}
 #header h1 a {
   color: #fff;
   font-weight: 400;
@@ -4032,5 +4038,4 @@ body.landing #main {
   #cta {
     padding: 2.5em 1em 3em 1em;
   }
-
 }
